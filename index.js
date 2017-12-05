@@ -23,3 +23,9 @@ function getFirstSelector(selector) {
 return element;
 }
 
+function deepestChild() {
+        let grandNode = document.querySelectorAll('#grand-node div')
+            var lastElement = grandNode[grandNode.length - 1];
+
+    return lastElement;    
+}
